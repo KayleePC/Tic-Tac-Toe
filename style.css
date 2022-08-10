@@ -1,0 +1,37 @@
+html, body{
+    background-color: #fdc5b3;
+}
+h1{
+    color: #545775;
+    font-family: "Rockwell", Rockwell, serif;
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+#restartBtn{
+    border-radius: 15px;
+    border-color: #545775;
+    color: #545775;
+    font-family: "Rockwell", Rockwell, serif;
+}
+#gameContainer{
+    font-family: "Rockwell", Rockwell, serif;
+    color: #545775;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    color: #545775;
+}
+
